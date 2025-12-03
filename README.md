@@ -1,8 +1,10 @@
 ﻿# DirectX Raytracing（DXR）の実装
  Direct3D 12を用いたレイトレーシングの実装を行いました．
-## 実装環境
-* (GPU):NVIDIA GeForce RTX 4060Ti
-* (CPU):AMD Ryzen 7 5700X 8-Core Processor（32GB）
+## Environment
+* API: DirectX 12
+* GPU: NVIDIA GeForce RTX 4060Ti
+* CPU: AMD Ryzen 7 5700X 8-Core Processor（32GB）
+* Libraries: 
 
 ## Cloning & Building
 This code is primarily tested with Windows 11 and Visual Studio 2022.  
@@ -30,6 +32,7 @@ cmake ..
 /Source        ... C++ DXR 本体
 /Shaders       ... RayGen / Miss / HitGroup.hlsl
 /Assets        ... モデル、テクスチャ
+
 
 
 
