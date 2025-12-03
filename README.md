@@ -28,10 +28,10 @@ cmake ..
 - Lambert / GGX ベースの簡易 PBR シェーディング
 - sRGB 変換 & トーンマッピング
 
-## ディレクトリ構成
-/Source        ... C++ DXR 本体
-/Shaders       ... RayGen / Miss / HitGroup.hlsl
-/Assets        ... モデル、テクスチャ
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+
 
 
 
