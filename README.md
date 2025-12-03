@@ -4,12 +4,12 @@
 * (GPU):NVIDIA GeForce RTX 4060Ti
 * (CPU):AMD Ryzen 7 5700X 8-Core Processor（32GB）
 
-## ビルド方法
-1. Visual Studio 2022 / Windows SDK 10.0.22621 以上をインストール
-2. DirectX Shader Compiler(dxc) を PATH に追加
-3. 本リポジトリをクローン
-   git clone ...
-4. ソリューションを開きビルド（Release / Debug 選択可）
+## Cloning & Building
+This code is primarily tested with Windows 10 and Visual Studio 2022.
+
+To clone this repo, run the following (note the --recursive flag):
+'''
+aaa
 
 ## 実装機能
 - DXR Tier 1.1 による GPU レイトレーシング
@@ -23,3 +23,4 @@
 /Source        ... C++ DXR 本体
 /Shaders       ... RayGen / Miss / HitGroup.hlsl
 /Assets        ... モデル、テクスチャ
+
