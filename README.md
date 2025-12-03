@@ -5,7 +5,7 @@
 * (CPU):AMD Ryzen 7 5700X 8-Core Processor（32GB）
 
 ## Cloning & Building
-This code is primarily tested with Windows 10 and Visual Studio 2022.
+This code is primarily tested with Windows 10 and Visual Studio 2022.  
 
 To clone this repo, run the following (note the --recursive flag):
 '''
@@ -23,4 +23,5 @@ aaa
 /Source        ... C++ DXR 本体
 /Shaders       ... RayGen / Miss / HitGroup.hlsl
 /Assets        ... モデル、テクスチャ
+
 
