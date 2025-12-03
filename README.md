@@ -7,9 +7,9 @@
 ## Cloning & Building
 This code is primarily tested with Windows 10 and Visual Studio 2022.  
 To clone this repo, run the following (note the --recursive flag):
-'''
+```
   --git clone --recursive https://github.com/TomoyaKozuki/maindir
-'''
+```
 
 ## 実装機能
 - DXR Tier 1.1 による GPU レイトレーシング
@@ -23,6 +23,7 @@ To clone this repo, run the following (note the --recursive flag):
 /Source        ... C++ DXR 本体
 /Shaders       ... RayGen / Miss / HitGroup.hlsl
 /Assets        ... モデル、テクスチャ
+
 
 
 
