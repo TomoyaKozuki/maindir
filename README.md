@@ -4,7 +4,7 @@
 * API: DirectX 12
 * GPU: NVIDIA GeForce RTX 4060Ti
 * CPU: AMD Ryzen 7 5700X 8-Core Processor（32GB）
-* Libraries: 
+* Libraries: Imgui
 
 ## Cloning & Building
 This code is primarily tested with Windows 11 and Visual Studio 2022.  
@@ -32,6 +32,7 @@ cmake ..
 /Source        ... C++ DXR 本体
 /Shaders       ... RayGen / Miss / HitGroup.hlsl
 /Assets        ... モデル、テクスチャ
+
 
 
 
