@@ -10,6 +10,13 @@ To clone this repo, run the following (note the --recursive flag):
 ```
 git clone --recursive https://github.com/TomoyaKozuki/maindir
 ```
+Next, create a build directory and run CMake:
+```
+cd (PATH_TO_CLONED_REPOSITORY)
+mkdir build
+cd build
+cmake ..
+```
 
 ## 実装機能
 - DXR Tier 1.1 による GPU レイトレーシング
@@ -23,6 +30,7 @@ git clone --recursive https://github.com/TomoyaKozuki/maindir
 /Source        ... C++ DXR 本体
 /Shaders       ... RayGen / Miss / HitGroup.hlsl
 /Assets        ... モデル、テクスチャ
+
 
 
 
